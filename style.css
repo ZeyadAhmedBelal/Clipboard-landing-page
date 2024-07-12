@@ -1,0 +1,397 @@
+* {
+  font-family: "Bai Jamjuree", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.clipboard-shadow-image-and-copyright-logo {
+  position: relative;
+}
+
+.clipboard-shadow-image {
+  width: 100%;
+}
+
+.clipboard-header-copyright-logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 180px;
+  left: 855px;
+}
+
+.main-title-and-downloading {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  justify-items: center;
+  margin-bottom: 100px;
+  gap: 15px;
+}
+
+.header-main-title {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+
+.header-main-info {
+  font-size: 20px;
+  color: grey;
+  width: 683px;
+  margin-bottom: 25px;
+}
+
+.header-main-info-span {
+  margin-left: 22%;
+}
+
+.ios-download {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 29px;
+}
+
+.mac-download {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 29px;
+}
+
+.ios-download-span1 {
+  display: inline-block;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+.mac-download-span1 {
+  display: inline-block;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+/*  */
+
+.secondary-title-and-info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 70px;
+}
+
+.header-secondary-title {
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+
+.header-secondary-info {
+  width: 851px;
+  color: grey;
+  font-size: 21px;
+  margin-top: 6px;
+}
+
+.header-secondary-info-span {
+  margin-left: 37%;
+}
+
+.computer-image-and-some-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  margin-bottom: 160px;
+}
+
+.three-good-info {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  margin-left: 80px;
+  margin-top: 45px;
+  font-size: 17px;
+}
+
+.info-title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.the-info {
+  font-size: 19px;
+  color: grey;
+  width: 423px;
+}
+
+.statement-and-ipad-image {
+  display: grid;
+  grid-template-rows: 0.4fr 1fr;
+  justify-items: center;
+  gap: 25px;
+}
+
+.statement1-title {
+  font-size: 32px;
+}
+
+.statement1-info {
+  color: grey;
+  font-size: 21px;
+  width: 850px;
+  margin-bottom: 80px;
+}
+
+.statement1-info-span {
+  margin-left: 30%;
+}
+
+.statement-and-some-tips {
+  display: grid;
+  grid-template-rows: 0.1fr 0.5fr 1fr 0.6fr;
+  gap: 20px;
+}
+
+.statement2-title {
+  justify-self: center;
+  font-size: 32px;
+}
+
+.statement2-info {
+  justify-self: center;
+  color: grey;
+  font-size: 17px;
+}
+
+.the-tips {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.tip1 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tip2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tip3 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.tip-icon {
+  /* width: 44px;
+  height: 40px; */
+}
+
+.tip-icon1 {
+  margin-left: 40%;
+  margin-bottom: 25px;
+  width: 44px;
+  height: 40px;
+}
+
+.tip-icon2 {
+  margin-left: 38%;
+  margin-bottom: 25px;
+  width: 36px;
+  height: 32px;
+}
+
+.tip-icon3 {
+  margin-left: 45%;
+  margin-bottom: 25px;
+  width: 50px;
+  height: 32px;
+}
+
+.tip-title {
+  font-size: 25px;
+}
+
+.tip-title1 {
+  font-size: 25px;
+  margin-left: 22%;
+}
+
+.tip-title2 {
+  font-size: 25px;
+  margin-left: 16%;
+}
+
+.tip-title3 {
+  font-size: 25px;
+  margin-left: 30%;
+}
+
+.tip-info {
+  font-size: 17px;
+  color: grey;
+  width: 373px;
+}
+
+.tip-info1 {
+  margin-left: 4%;
+}
+
+.tip-info-span1 {
+  margin-left: 35%;
+}
+
+.tip-info-span2 {
+  margin-left: 25%;
+}
+
+.tip-info-span3 {
+  margin-left: 32%;
+}
+
+.best-sources {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 101px;
+}
+
+.last-title-and-downloading {
+  display: grid;
+  grid-template-rows: 0.5fr 0.5fr 0.5fr;
+  justify-items: center;
+  row-gap: 30px;
+  margin-bottom: 150px;
+}
+
+.last-title {
+  font-size: 32px;
+}
+
+.last-info {
+  font-size: 20px;
+  color: grey;
+  width: 746px;
+  margin-bottom: 16px;
+}
+
+.last-info-span {
+  margin-left: 26%;
+}
+
+.ios-download {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 29px;
+}
+
+.mac-download {
+  text-decoration: none;
+  color: white;
+  background-color: hsl(233, 100%, 69%);
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border-radius: 29px;
+}
+
+.ios-download-span2 {
+  display: inline-block;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+.mac-download-span2 {
+  display: inline-block;
+  padding-top: 12px;
+  font-weight: bold;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  column-gap: 122px;
+  background-color: whitesmoke;
+  height: 133px;
+  color: grey;
+}
+
+.clipboard-footer-copyright-logo {
+  width: 62.5px;
+  height: 62.5px;
+  justify-self: end;
+  align-self: center;
+}
+
+.any-help {
+  justify-self: stretch;
+  align-self: center;
+}
+
+.footer-any-help-p {
+  font-size: 20px;
+}
+
+.footer-any-help-span {
+  display: inline-block;
+}
+
+.footer-any-help-span-FAQs {
+  margin-right: 27%;
+}
+
+.footer-any-help-span-Privacy-Policy {
+  margin-right: 16%;
+}
+
+.footer-any-help-p-margin-bottom {
+  margin-bottom: 16px;
+}
+
+.footer-any-help-span-Contact-Us {
+  margin-right: 20%;
+}
+
+.social-media-icons {
+  align-self: center;
+}
+
+.the-icons {
+  margin-right: 16px;
+}
+
+.facebook-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.twitter-icon {
+  width: 24px;
+  height: 20px;
+}
+
+.instagram-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0;
+}
