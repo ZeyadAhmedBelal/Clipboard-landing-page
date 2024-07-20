@@ -6,6 +6,7 @@
 
 .clipboard-shadow-image-and-copyright-logo {
   position: relative;
+  display: grid;
 }
 
 .clipboard-shadow-image {
@@ -15,9 +16,9 @@
 .clipboard-header-copyright-logo {
   width: 150px;
   height: 150px;
-  position: absolute;
-  top: 180px;
-  left: 855px;
+    justify-self: center;
+  margin-top: -201px;
+  margin-bottom: 135px;
 }
 
 .main-title-and-downloading {
